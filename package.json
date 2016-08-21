@@ -1,6 +1,6 @@
 {
   "name": "hello-world",
-  "homepage": "https://github.com/satya-dash/hello-world",
+  "homepage": "https://satya-dash.github.io/hello-world",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && sh deploy.sh",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
